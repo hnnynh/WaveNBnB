@@ -15,16 +15,16 @@ export default function Intro() {
           />
         </div>
         <div className="flex text-black justify-center items-center">
-          <div className="flex flex-col sm:flex-row items-start justify-center flex-1 w-full">
-            <div className="flex justify-center sm:w-[90%] w-full p-3">
+          <div className="flex flex-col md:flex-row items-start justify-center flex-1 w-full">
+            <div className="flex justify-center md:w-[90%] w-full p-3">
               <Image src="/sub1_1.jpg" alt="소개" width={720} height={1151} />
             </div>
 
-            <div className="flex flex-col sm:w-1/6 w-full sm:text-left gap-4 sm:items-start items-center sm:mt-10">
-              <div className="flex flex-col gap-2 items-center sm:items-start">
+            <div className="flex flex-col md:w-1/6 w-full md:text-left gap-4 md:items-start items-center md:mt-10">
+              <div className="flex flex-col gap-2 items-center md:items-start">
                 <p className="text-xs">친절 예약</p>
 
-                <div className="flex justify-center sm:justify-start w-full">
+                <div className="flex justify-center md:justify-start w-full">
                   <Image
                     src="/home_cc.gif"
                     alt="전화번호"
@@ -34,7 +34,7 @@ export default function Intro() {
                 </div>
               </div>
 
-              <div className="flex items-center justify-center sm:justify-start w-full gap-1 mb-3">
+              <div className="flex items-center justify-center md:justify-start w-full gap-1 mb-3">
                 <a href="/direction" rel="noopener noreferrer">
                   <Image
                     src="/main_nav_intro.gif"
