@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Nearby() {
+export default function Intro() {
   return (
     <div className="flex text-black justify-center w-full">
       <div className="flex flex-col items-center justify-center flex-1 w-full">
@@ -16,7 +16,11 @@ export default function Nearby() {
         </div>
         <div className="flex text-black justify-center items-center">
           <div className="flex flex-col md:flex-row items-start justify-center flex-1 w-full">
-            <div className="flex flex-col md:w-1/6 w-full md:text-left gap-4 md:items-start items-center md:mt-10">
+            <div className="flex justify-center md:w-[90%] w-full p-3">
+              <Image src="/ready.png" alt="점" width={720} height={720} />
+            </div>
+
+            <div className="flex flex-row md:flex-col md:w-1/6 w-full md:text-left gap-4 md:items-start justify-center items-center md:mt-10 mb-3">
               <div className="flex flex-col gap-2 items-center md:items-start">
                 <p className="text-xs">친절 예약</p>
 
@@ -30,7 +34,7 @@ export default function Nearby() {
                 </div>
               </div>
 
-              <div className="flex items-center justify-center md:justify-start w-full gap-1 mb-3">
+              <div className="flex items-center justify-center md:justify-start gap-1">
                 <a href="/direction" rel="noopener noreferrer">
                   <Image
                     src="/main_nav_intro.gif"

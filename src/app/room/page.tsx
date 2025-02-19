@@ -56,7 +56,7 @@ export default function Room() {
               </p>
             </div>
 
-            <div className="flex flex-col md:w-1/6 w-full md:text-left gap-4 md:items-start items-center md:mt-10">
+            <div className="flex flex-row md:flex-col md:w-1/6 w-full md:text-left gap-4 md:items-start justify-center items-center md:mt-10 mb-3">
               <div className="flex flex-col gap-2 items-center md:items-start">
                 <p className="text-xs">친절 예약</p>
 
@@ -70,7 +70,7 @@ export default function Room() {
                 </div>
               </div>
 
-              <div className="flex items-center justify-center md:justify-start w-full gap-1 mb-3">
+              <div className="flex items-center justify-center md:justify-start gap-1">
                 <a href="/direction" rel="noopener noreferrer">
                   <Image
                     src="/main_nav_intro.gif"
