@@ -43,7 +43,6 @@ export default function Header() {
         className="relative top-8 bottom-right-0 w-full z-10 h-20 transition duration-500 bg-white"
       >
         <div className="absolute bottom-0 left-[5%] right-[5%] border-b-2 border-blue-800 shadow-[0_4px_8px_rgba(0,0,0,0.2)]"></div>
-
         <div
           ref={toggleRef}
           className="w-full h-[85vh] absolute top-20 left-0 bg-white flex-col flex-nowrap p-5 flex hidden text-black"

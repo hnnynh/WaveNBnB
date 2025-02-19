@@ -6,7 +6,6 @@ export default function Footer() {
   return (
     <footer className="w-full flex flex-col relative">
       <div className="absolute left-[7%] right-[12%] border-t border-gray-200 shadow-md"></div>
-
       <a
         href={`tel:${process.env.NEXT_PUBLIC_FOOTER_PHONE}`}
         className="absolute left-[10%] right-[10%] m-5 mr-8 ml-0"

@@ -8,7 +8,8 @@ interface NavProps {
 }
 
 const navlinks: { title: string; link: string }[] = [
-  { title: "소개 및 오시는 길", link: "/intro" },
+  { title: "소개", link: "/intro" },
+  { title: "오시는 길", link: "/direction" },
   { title: "객실 보기", link: "/room" },
   { title: "주변 관광지", link: "/nearby" },
 ];

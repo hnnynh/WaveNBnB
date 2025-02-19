@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Intro() {
+export default function Direction() {
   return (
     <div className="flex text-black justify-center w-full">
       <div className="flex flex-col items-center justify-center flex-1 w-full">
@@ -17,7 +17,12 @@ export default function Intro() {
         <div className="flex text-black justify-center items-center">
           <div className="flex flex-col sm:flex-row items-start justify-center flex-1 w-full">
             <div className="flex justify-center sm:w-[90%] w-full p-3">
-              <Image src="/sub1_1.jpg" alt="소개" width={720} height={1151} />
+              <Image
+                src="/sub1_2.jpg"
+                alt="오시는 길"
+                width={720}
+                height={1151}
+              />
             </div>
 
             <div className="flex flex-col sm:w-1/6 w-full sm:text-left gap-4 sm:items-start items-center sm:mt-10">
