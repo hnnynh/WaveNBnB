@@ -19,7 +19,7 @@ export default function Header() {
 
   const hideToggle = () => {
     if (onToggle) toggleRef.current?.classList.add("hidden");
-    setOnToggle((prev) => false);
+    setOnToggle(() => false);
   };
 
   useEffect(() => {
