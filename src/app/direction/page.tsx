@@ -9,7 +9,7 @@ export default function Direction() {
             <Image src="/sub_image.jpg" alt="표지" width={1380} height={157} />
           </div>
 
-          <div className="block md:hidden relative w-full h-[80px]">
+          <div className="block md:hidden relative w-full h-[60px]">
             <Image
               src="/sub_image.jpg"
               alt="표지"

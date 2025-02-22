@@ -15,7 +15,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="block md:hidden relative w-full h-[250px]">
+        <div className="block md:hidden relative w-full h-[190px]">
           <Image
             src="/main_home.jpg"
             alt="파도와민박"

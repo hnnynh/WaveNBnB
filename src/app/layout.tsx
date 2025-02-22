@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="ko">
       <body className={notoSansKr.className}>
         <Header />
-        <main className="mt-[3vh]">{children}</main>
+        <main className="mt-[30]">{children}</main>
         <Footer />
       </body>
     </html>
