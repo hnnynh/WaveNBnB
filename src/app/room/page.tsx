@@ -17,15 +17,19 @@ export default function Room() {
   return (
     <div className="flex text-black justify-center w-full">
       <div className="flex flex-col items-center justify-center flex-1 w-full">
-        <div className="relative w-full flex justify-center">
-          <Image
-            src="/sub_image.jpg"
-            alt="표지"
-            layout="intrinsic"
-            width={1380}
-            height={157}
-            className="object-cover"
-          />
+        <div className="w-full flex justify-center">
+          <div className="hidden md:block">
+            <Image src="/sub_image.jpg" alt="표지" width={1380} height={157} />
+          </div>
+
+          <div className="block md:hidden relative w-full h-[80px]">
+            <Image
+              src="/sub_image.jpg"
+              alt="표지"
+              fill
+              className="object-cover"
+            />
+          </div>
         </div>
         <div className="flex text-black justify-center items-center">
           <div className="flex flex-col md:flex-row items-start justify-center flex-1 w-full">
@@ -64,13 +68,13 @@ export default function Room() {
                   <Image
                     src="/home_cc.gif"
                     alt="전화번호"
-                    width={228}
+                    width={200}
                     height={66}
                   />
                 </div>
               </div>
 
-              <div className="flex items-center justify-center md:justify-start gap-1">
+              <div className="flex items-center justify-center md:justify-start gap-1 pt-3">
                 <a href="/direction" rel="noopener noreferrer">
                   <Image
                     src="/main_nav_intro.gif"
